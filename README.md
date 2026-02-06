@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@vybe-adk/dom-element-selector)](https://www.npmjs.com/package/@vybe-adk/dom-element-selector)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/vybe-build/dom-element-selector/actions/workflows/ci.yml/badge.svg)](https://github.com/vybe-build/dom-element-selector/actions/workflows/ci.yml)
 
 React hook for visually selecting DOM elements on a page with an interactive overlay, element highlighting, and rich metadata extraction.
 
