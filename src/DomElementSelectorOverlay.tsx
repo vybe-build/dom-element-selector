@@ -120,6 +120,8 @@ export function DomElementSelectorOverlay({
       return;
     }
 
+    overlayRef.current?.focus();
+
     document.addEventListener("mousemove", handleMouseMove, true);
     document.addEventListener("click", handleClick, true);
     document.addEventListener("keydown", handleKeyDown, true);
@@ -139,12 +141,14 @@ export function DomElementSelectorOverlay({
     <div
       ref={overlayRef}
       data-dom-element-selector-overlay
+      tabIndex={-1}
       style={{
         position: "fixed",
         inset: 0,
         zIndex: 999999,
         cursor: "crosshair",
         pointerEvents: "auto",
+        outline: "none",
       }}
     >
       {rect && (

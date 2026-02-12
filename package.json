@@ -1,6 +1,6 @@
 {
   "name": "@vybe-adk/dom-element-selector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React hook for visually selecting DOM elements on a page with an interactive overlay",
   "license": "MIT",
   "author": "Vybe",
